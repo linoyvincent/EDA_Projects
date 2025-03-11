@@ -156,3 +156,84 @@ The dataset comprises **17 columns**, including both categorical and numerical v
 - **Jupyter Notebook/Colab:** For interactive data analysis.
 
 
+
+
+
+
+#  Exploratory Data Analysis (EDA) on Student Lifestyle Dataset (EDA_3)
+
+##  Introduction
+This project focuses on performing **Exploratory Data Analysis (EDA)** on a **Student Lifestyle Dataset** to investigate how various lifestyle choices, daily habits, and stress levels affect academic performance. The dataset captures detailed information about students’ routines, including:
+
+- Study hours
+- Extracurricular activities
+- Sleep patterns
+- Social interactions
+- Physical exercise
+- Grade Point Average (GPA)
+- Stress levels categorized as Low, Moderate, or High
+
+The goal is to uncover correlations and trends to provide insights for enhancing academic performance while maintaining a balanced lifestyle.
+
+
+
+##  Dataset
+The dataset contains several key attributes:
+
+- **Student_ID:** Unique identifier for each student.
+- **Study Hours Per Day:** Average number of hours dedicated to studying.
+- **Sleep Hours Per Day:** Average amount of sleep each day.
+- **Physical Activity Hours Per Day:** Time spent on physical exercise.
+- **GPA:** Academic performance indicator.
+- **Stress Level:** Categorical variable (Low, Moderate, High) converted to numerical for analysis.
+- **Other attributes:** Involvement in extracurricular activities, socializing, etc.
+
+
+
+##  Analysis Performed
+1. **Data Cleaning & Preprocessing:**
+   - Checking for missing and duplicate values.
+   - Mapping categorical stress levels to numerical values.
+   - Removing outliers for reliable analysis.
+
+2. **Statistical Analysis:**
+   - Covariance and Correlation matrices.
+   - Descriptive statistics to summarize numerical attributes.
+
+3. **Visualizations:**
+   - Bar plots, scatter plots, box plots, line plots, pie charts, and heatmaps.
+
+4. **Exploratory Analysis:**
+   - **Stress Level Analysis:** Distribution of stress levels among students.
+   - **GPA Trends:** Relationship between study hours, sleep patterns, and GPA.
+   - **Correlation Analysis:** Relationship between lifestyle habits and academic performance.
+   - **Stress vs. Academic Performance:** Analysis of GPA across different stress levels.
+   - **Top Performing Students:** Identifying students with highest GPAs.
+
+
+
+##  Insights
+- **Stress Levels:** A significant number of students fall under moderate to high stress categories.
+- **Study Hours & GPA:** Positive correlation between study hours and GPA, with diminishing returns beyond a certain threshold.
+- **Sleep & GPA:** Balanced sleep patterns positively influence GPA.
+- **Top Performers:** Students with high GPAs tend to manage their study time and stress levels effectively.
+- **Stress Management:** Students with lower stress levels generally achieve higher GPAs.
+
+
+
+##  Recommendations
+- Encourage students to maintain a balanced routine of study, sleep, and physical activity.
+- Implement stress management programs to support students in achieving better academic performance.
+- Promote effective study techniques over long study hours to avoid diminishing returns.
+- Provide targeted academic counseling and wellness programs to high-stress students.
+
+
+
+##  Tools & Libraries
+- **Python:** Pandas, Numpy, Matplotlib, Seaborn
+- **Data Visualization:** Bar plots, scatter plots, box plots, line plots, pie charts, and heatmaps.
+- **Jupyter Notebook/Colab:** For interactive data analysis.
+
+
+
+
