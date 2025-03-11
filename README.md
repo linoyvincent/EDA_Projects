@@ -1,4 +1,4 @@
-# EDA_Projects
+
 
 
 
@@ -70,6 +70,83 @@ The dataset contains the following key attributes:
 - Build predictive models for customer segmentation, revenue prediction, and churn analysis.
 - Integrate advanced analytics techniques like clustering and regression analysis.
 - Develop a dashboard for real-time insights and reporting.
+
+
+
+##  Tools & Libraries
+- **Python:** Pandas, Numpy, Matplotlib, Seaborn
+- **Data Visualization:** Line plots, bar charts, scatter plots, heatmaps, pie charts, and box plots.
+- **Jupyter Notebook/Colab:** For interactive data analysis.
+
+
+
+
+
+
+#  Exploratory Data Analysis (EDA) on Supermarket Sales Dataset (EDA_2)
+
+##  Introduction
+This project focuses on performing **Exploratory Data Analysis (EDA)** on a **Supermarket Sales Dataset** containing **1,000 transactions**. The objective is to extract valuable insights related to customer behavior, sales performance, and financial metrics to drive data-driven decision-making.
+
+
+
+##  Dataset
+The dataset comprises **17 columns**, including both categorical and numerical variables:
+
+- **Invoice ID:** Unique identifier for each transaction.
+- **Branch & City:** Store locations.
+- **Customer Type & Gender:** Demographic information of customers.
+- **Product Line:** Categories of purchased products.
+- **Unit Price & Quantity:** Cost of individual products and purchase amounts.
+- **Tax 5% & Total:** Sales tax and transaction totals.
+- **Date & Time:** Purchase timestamps.
+- **Payment Method:** Cash, Credit card, E-wallet.
+- **cogs (Cost of Goods Sold), Gross Margin %, and Gross Income:** Financial metrics for profitability.
+- **Rating:** Customer satisfaction score.
+
+
+
+##  Analysis Performed
+1. **Data Cleaning:**
+   - Renaming columns for consistency.
+   - Merging date and time columns into a single `DateTime` column.
+   - Checking for missing and duplicate values.
+   - Removing outliers using the Interquartile Range (IQR) method.
+
+2. **Feature Engineering:**
+   - Creating a `DateTime` column for improved time-based analysis.
+
+3. **Statistical Analysis:**
+   - Covariance and Correlation matrices.
+   - Descriptive statistics of numerical attributes.
+
+4. **Visualizations:**
+   - Box plots, scatter plots, bar charts, pie charts, line plots, and heatmaps.
+
+5. **Exploratory Analysis:**
+   - **Sales by Product Line:** Identifying high-revenue product categories.
+   - **Daily Sales Trends:** Understanding fluctuations over time.
+   - **Product Ratings Distribution:** Customer satisfaction analysis.
+   - **Gross Income Analysis:** Comparing profitability across product lines.
+   - **Relationship Analysis:** Exploring relationships between unit price and quantity.
+   - **Payment Methods:** Distribution of different payment methods.
+   - **Branch Performance:** Comparing sales and ratings between branches.
+
+
+##  Insights
+- **Best-Selling Product Lines:** 'Food and Beverages' and 'Electronic Accessories' generate the highest total sales.
+- **Customer Loyalty:** 'Member' customers make more purchases than 'Normal' customers, indicating loyalty programs are effective.
+- **Peak Sales Days:** Certain days experience higher sales, possibly due to promotions or seasonal demand.
+- **Payment Preferences:** E-wallets are the most popular payment method, followed by cash and credit cards.
+- **Branch Analysis:** 'Branch A' has the highest customer satisfaction based on average ratings.
+
+
+##  Recommendations
+- Enhance marketing strategies around best-selling product lines.
+- Increase member conversion through loyalty programs.
+- Introduce targeted promotions during low-sales periods.
+- Provide discounts or cashback offers for E-wallet transactions.
+- Continuously monitor branch performance to maintain high customer satisfaction.
 
 
 
